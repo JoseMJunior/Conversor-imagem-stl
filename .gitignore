@@ -1,0 +1,44 @@
+# Dependencies and package-manager caches
+node_modules/
+.npm/
+.pnpm-store/
+
+# Builds, generated declarations and legacy desktop artifacts
+.next/
+out/
+dist/
+release/
+next-env.d.ts
+*.tsbuildinfo
+
+# Generated from the pinned manifold-3d dependency by postinstall/build
+/public/wasm/
+
+# Test reports, coverage and slicer output
+test-results/
+playwright-report/
+blob-report/
+coverage/
+.nyc_output/
+/result.json
+
+# Local deployment link, environment variables and credentials
+.vercel/
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Tool caches, logs and local editor/OS files
+.cache/
+.turbo/
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
